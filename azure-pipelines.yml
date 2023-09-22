@@ -16,3 +16,4 @@ steps:
   inputs:
     aggressivemode: true
     threshold: '500'
+    url: 'https://bytesec.web.app/'
