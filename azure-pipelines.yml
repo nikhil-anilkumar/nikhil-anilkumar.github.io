@@ -16,4 +16,6 @@ steps:
   inputs:
     aggressivemode: true
     threshold: '500'
+    scantype: 'targetedScan'
     url: 'https://bytesec.web.app/'
+    port: '443'
