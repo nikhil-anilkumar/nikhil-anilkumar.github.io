@@ -14,5 +14,5 @@ pool:
 steps:
 - task: owaspzap@1
   inputs:
-    scantype: 'targetedScan'
-    url: 'https://bytesec.web.app/'
+    aggressivemode: true
+    threshold: '500'
