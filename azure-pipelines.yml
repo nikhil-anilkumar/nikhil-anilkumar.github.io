@@ -16,6 +16,7 @@ steps:
     threshold: '500'
     scantype: 'targetedScan'
     url: 'https://bytesec.app'
+    port: '443'
 
 - bash: |
    sudo npm install -g handlebars-cmd
