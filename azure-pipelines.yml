@@ -13,11 +13,9 @@ pool:
 steps:
 - task: owaspzap@1
   inputs:
-    aggressivemode: true
     threshold: '500'
     scantype: 'targetedScan'
     url: 'https://bytesec.app'
-    port: '443'
 
 - bash: |
    sudo npm install -g handlebars-cmd
