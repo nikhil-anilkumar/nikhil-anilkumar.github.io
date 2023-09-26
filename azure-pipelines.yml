@@ -16,8 +16,8 @@ steps:
     aggressivemode: true
     threshold: '500'
     scantype: 'targetedScan'
-    url: 'https://bytesec.app/'
-    port: '443'
+    url: 'http://testphp.vulnweb.com/'
+    port: '80'
 
 - bash: |
    sudo npm install -g handlebars-cmd
